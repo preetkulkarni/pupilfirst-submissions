@@ -1,5 +1,5 @@
 /*
- * Password Validation Check: Logic
+ * Password Validation Check
  * 
  * Rules:
  * 1. Both the passwords entered by the user should match.
