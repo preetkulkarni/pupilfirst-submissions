@@ -11,6 +11,7 @@
  * 
  * Written By: Preet Kulkarni
  * 
+ * 
  */
 
 // Test passwords
@@ -49,4 +50,5 @@ function validatePassword(pass1, pass2) {
 console.log(validatePassword(pass1, pass2)); // Not matching
 console.log(validatePassword(pass3, pass3)); // Incorrect length
 console.log(validatePassword(pass4, pass4)); // No special characters
+
 console.log(validatePassword(goodpass, goodpass)); // Valid password
