@@ -5,6 +5,10 @@
  * 1. There should be a minimum of 4 words in the passphrase
  * 2. There should be a minimum of 2 characters in each word
  * 3. Function should return a boolean value - true if the supplied string is a valid passphrase and false if it is not
+ * 
+ * Implementation:
+ * - The function splits the name into words and applies the conditions based on the number of words and number of characters in each word.
+ * - Test cases have been included to verify functionality.
  *
  * Written by: Preet Kulkarni
  */
