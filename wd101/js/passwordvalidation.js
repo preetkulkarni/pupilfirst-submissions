@@ -7,7 +7,8 @@
  * 3. Passwords must be a combination of uppercase letters, lowercase letters, numbers, and symbols.
  * 
  * Implementation:
- * Different hardcoded passwords have been used to check various conditions.
+ * - The function compares two passwords to check if they match and satisfy the given conditions.
+ * - Test cases have been included to verify functionality.
  * 
  * Written By: Preet Kulkarni
  * 
