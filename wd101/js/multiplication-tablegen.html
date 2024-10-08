@@ -1,0 +1,18 @@
+<html>
+    <script>
+        let number = 2;
+        let multiplier = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+        let table = [];
+
+        let createMultiplicationTable = (number, multiplier) => {
+            let product = number * multiplier;
+            let html = "<p>" + String(number) + " x " + String(multiplier) + " = " + String(product) + "</p>";
+
+            table.push(html);
+        }
+
+        let line = "<div style=padding: 8px 16px; background-color: beige; margin-right: 16px>" + table.join("\n") + "</div>";
+        document.getElementById("table").innerHTML = line;
+    </script>
+</html>
